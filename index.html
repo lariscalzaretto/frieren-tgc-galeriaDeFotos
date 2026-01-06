@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimório Frieren TGC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="nature-header">
+        <h1>Galeria de Fotos</h1>
+        
+        <div class="logo-container">
+            <img src="assets/img/logo.png" alt="Logo Frieren" class="app-logo">
+        </div>
+
+        <h2>TGC: Gerador de Cartas</h2>
+    </header>
+
+    <div class="control-panel">
+        <div class="filters-row">
+            <input type="text" id="searchInput" placeholder="Busque por personagem...">
+            
+            <span class="ou-separator">OU</span>
+
+            <select id="typeFilter">
+                <option value="all">✨ Todos os Tipos</option>
+                <option value="Ataque">⚔️ Ataque</option>
+                <option value="Defesa">🛡️ Defesa</option>
+                <option value="Suporte">🌿 Suporte</option>
+                <option value="Especial">🔮 Extra/Especial</option>
+                <option value="Local">🗺️ Locais</option>
+            </select>
+        </div>
+
+        <div class="button-group">
+            <button id="searchBtn">FILTRAR CARTAS</button>
+            <button id="clearBtn" class="secondary-btn">LIMPAR BUSCA</button>
+        </div>
+    </div>
+
+    <main>
+        <div id="cardGrid" class="card-grid">
+            <p class="loading">✨ Viajando para Ende... ✨</p>
+        </div>
+        <p id="noResults" class="hidden">Nenhum aventureiro encontrado com esses critérios.</p>
+    </main>
+
+    <footer class="nature-footer">
+        <div class="footer-content">
+            <p class="copyright">
+                © 2026 Frieren TCG. Design e Código por <strong>Larissa Scalzaretto</strong>
+            </p>
+            
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/larissa-guilhermina" target="_blank" class="contact-item">
+                    <span>LinkedIn</span>
+                </a>
+                <span class="separator">|</span>
+                <a href="https://github.com/lariscalzaretto" target="_blank" class="contact-item">
+                    <span>GitHub</span>
+                </a>
+                <span class="separator">|</span>
+                <a href="mailto:scalzarettolarissa@gmail.com" class="contact-item">
+                    <span>Email</span>
+                </a>
+            </div>
+            
+            <p class="disclaimer">Fan project sem fins lucrativos. Inspirado em "Frieren: Beyond Journey's End".</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
