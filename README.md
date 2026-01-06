@@ -1,4 +1,4 @@
-# 🌿 Grimório Frieren: Galeria de Imagens TGC 
+# 🌿 Grimório Frieren: Galeria de Imagens TCG 
 
 > "A magia é o mundo da imaginação." — Frieren
 
@@ -7,7 +7,7 @@
 
 ## 📖 Sobre o Projeto
 
-O **Grimório Frieren** é uma aplicação web interativa que consome dados de API para transformar os personagens do anime/mangá *Frieren: Beyond Journey's End* em cartas colecionáveis (TGC).
+O **Grimório Frieren** é uma aplicação web interativa que consome dados de API para transformar os personagens do anime/mangá *Frieren: Beyond Journey's End* em cartas colecionáveis (TCG).
 
 O objetivo foi criar uma interface que unisse **design imersivo** (inspirado na estética "cozy" e naturalista da obra) com **lógica de manipulação de dados**, criando stats de RPG (Mana, Ataque, Defesa) para cada personagem.
 
@@ -16,7 +16,7 @@ O objetivo foi criar uma interface que unisse **design imersivo** (inspirado na 
 ## 🔗 Link do Projeto (Live Preview)
 
 Acesse a aplicação a funcionar aqui:
-👉 **[Grimório Frieren TGC - Live App](https://seu-usuario.github.io/nome-do-repositorio)**
+👉 **[Grimório Frieren TCG - Live App](https://lariscalzaretto.github.io/frieren-tgc-galeriaDeFotos/)**
 
 ---
 
