@@ -16,7 +16,7 @@ O objetivo foi criar uma interface que unisse **design imersivo** (inspirado na 
 ## 🔗 Link do Projeto (Live Preview)
 
 Acesse a aplicação a funcionar aqui:
-👉 **[Grimório Frieren TCG - Live App](https://lariscalzaretto.github.io/frieren-tgc-galeriaDeFotos/)**
+👉 **[Grimório Frieren TCG - Live App](https://lariscalzaretto.github.io/frieren-tcg-galeriaDeFotos/)**
 
 ---
 
